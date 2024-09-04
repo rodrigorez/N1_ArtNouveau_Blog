@@ -1,4 +1,4 @@
-# grupoN1_blog
+# N1_ArtNouveau_blog
 # Projeto
 
 Este Projeto foi criado para acompanhamento dos alunos da materia de Projeto em Design: Digital
