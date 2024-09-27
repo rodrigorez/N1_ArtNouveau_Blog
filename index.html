@@ -1,51 +1,39 @@
-<html>
-<body>
-
-<img src="https://i.imgur.com/8ZI4mCU.png" alt="Headline" max-width="auto" height="auto">
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<img class="full-width-image" src="https://i.imgur.com/t7xf0Ty.png" alt="Imagem 1">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Nouveau</title>
     <style>
-        @import url('https://use.typekit.net/xxxxxx.css'); /* Substitua 'xxxxxx' pelo código do kit do Adobe Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;700&display=swap');
 
         body {
-            font-family: 'Georgia', serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fed690;
-            color: #333;
-        }
-
-        header {
             background-color: #244841;
-            color: #fff;
-            padding: 40px 20px;
-            text-align: center;
-            font-size: 2.5em;
-            letter-spacing: 2px;
-            font-family: 'Sloop Script Pro', cursive;
+            color: #fed690;
+            line-height: 2;
         }
 
         nav {
             display: flex;
             justify-content: center;
-            background-color: #244841;
+            background-color: #fed690;
             padding: 10px;
         }
 
         nav a {
-            color: #fed690;
-            padding: 15px 20px;
+            color: #244841;
+            padding: 5px 20px;
             text-decoration: none;
             text-transform: uppercase;
             font-weight: bold;
             transition: color 0.3s ease;
-            font-family: 'Georgia', serif;
+            font-family: 'Poppins', sans-serif;
         }
 
         nav a:hover {
@@ -53,30 +41,39 @@
         }
 
         section {
-            padding: 40px 60px;
-            line-height: 1.6;
+            padding: 10px 60px; 
+            line-height: 2; 
         }
 
         section h2 {
-            border-bottom: 2px solid #244841;
+            border-bottom: 2px solid #fed690;
             padding-bottom: 10px;
-            margin-bottom: 20px;
-            font-size: 2em;
-            font-family: 'Sloop Script Pro', cursive;
+            margin-bottom: 10px;
+            font-size: 4em;
+            font-family: 'Great Vibes', cursive;
+            font-style: normal;
         }
 
         .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
         }
 
-        .gallery img {
+        .first-image {
             width: 100%;
             height: auto;
-            border: 4px solid #244841;
+            border: 4px solid #fed690;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .small-image {
+            width: 31%;
+            height: auto;
+            border-radius: 8px;
             transition: transform 0.3s ease;
         }
 
@@ -85,18 +82,20 @@
         }
 
         footer {
-            background-color: #244841;
-            color: #fed690;
+            background-color: #fed690;
+            color: #244841;
             text-align: center;
             padding: 20px;
             font-size: 0.9em;
+            font-family: 'Poppins', sans-serif; 
+            font-weight: bold;
+            margin-top: 20px;
         }
 
-        /* Estilos adicionais para Art Nouveau */
         .decorative-line {
             border: none;
-            border-top: 2px solid #244841;
-            margin: 30px 0;
+            border-top: 2px solid #f1e2a6;
+            margin: 0px 0;
             position: relative;
         }
 
@@ -112,59 +111,77 @@
             left: 50%;
             transform: translateX(-50%);
         }
+
+        .full-width-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
+
 <body>
 
-<header>
-    <h1>Art Nouveau</h1>
-    <p>A Arte da Elegância e da Natureza</p>
-</header>
+    <audio autoplay loop>
+        <source src="https://www.example.com/musica-art-nouveau.mp3" type="audio/mpeg">
+  
+    </audio>
 
-<nav>
-    <a href="#introducao">Introdução</a>
-    <a href="#historia">História</a>
-    <a href="#artistas">Artistas</a>
-    <a href="#galeria">Galeria</a>
-</nav>
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#historia">História</a>
+        <a href="#artistas">Artistas</a>
+        <a href="#galeria">Galeria</a>
+    </nav>
 
-<section id="introducao">
-    <h2>Introdução</h2>
-    <p>Art Nouveau é um movimento artístico decorativo que floresceu na Europa e nos Estados Unidos de cerca de 1890 a 1910. É caracterizado por designs lineares intrincados e curvas fluidas baseadas em formas naturais.</p>
-    <hr class="decorative-line">
-</section>
+    <section id="introducao">
+        <h2>Introdução</h2>
+        <p>O <strong>Art Nouveau</strong>, um movimento artístico que floresceu entre o final do século XIX e o início do século XX, é amplamente reconhecido por suas <strong>linhas sinuosas</strong> e <strong>formas orgânicas</strong> inspiradas na natureza. Caracterizado pela busca de uma nova estética que rompesse com as tradições acadêmicas do passado, o Art Nouveau se manifestou em diversas disciplinas, como arquitetura, design de interiores, artes gráficas e moda. Os artistas e designers desse movimento procuraram integrar a arte à vida cotidiana, criando objetos não apenas funcionais, mas também <strong>visualmente impactantes</strong>. Com a ênfase na estética decorativa e na harmonia com o ambiente, o Art Nouveau deixou um legado duradouro que ainda influencia o design contemporâneo.</p>
+        <hr class="decorative-line">
+    </section>
 
-<section id="historia">
-    <h2>História</h2>
-    <p>Emergindo como uma reação à arte acadêmica, o Art Nouveau buscou modernizar o design, escapando dos estilos históricos ecléticos anteriormente populares. Enfatizava formas orgânicas, como flores, plantas e linhas curvas, para criar um design elegante e harmonioso.</p>
-    <hr class="decorative-line">
-</section>
+    <img class="full-width-image" src="https://i.imgur.com/JNI9NyR.png" alt="Imagem 1">
 
-<section id="artistas">
-    <h2>Principais Artistas</h2>
-    <ul>
-        <li>Alphonse Mucha</li>
-        <li>Gustav Klimt</li>
-        <li>Hector Guimard</li>
-        <li>Antoni Gaudí</li>
-        <li>Louis Comfort Tiffany</li>
-    </ul>
-    <hr class="decorative-line">
-</section>
+    <section id="historia">
+        <h2>História</h2>
+        <p>As raízes do <strong>Art Nouveau</strong> podem ser rastreadas até a <strong>Revolução Industrial</strong>, que trouxe significativas mudanças sociais e tecnológicas. O avanço da indústria permitiu a <strong>produção em massa</strong> de objetos, mas muitos artistas sentiam que essa produção despersonalizada não refletia a verdadeira essência da arte. Eles desejavam retornar a um trabalho mais manual e artístico, buscando a integração de forma e função.</p>
+        <p>As influências do Art Nouveau são diversas e incluem a <strong>arte japonesa</strong>, que foi introduzida na Europa através do comércio e da exposição de objetos orientais. Os <strong>padrões simples</strong>, as <strong>linhas fluidas</strong> e as <strong>formas orgânicas</strong> da arte japonesa foram absorvidos pelos artistas do movimento. Além disso, o <strong>simbolismo</strong>, um movimento literário e artístico que enfatizava a emoção e a espiritualidade, também desempenhou um papel importante na formação do Art Nouveau.</p>
+        <hr class="decorative-line">
+    </section>
 
-<section id="galeria">
-    <h2>Galeria</h2>
-    <div class="gallery">
-        <img src="caminho-para-imagem.jpg" alt="Design Art Nouveau 1">
-        <img src="caminho-para-imagem.jpg" alt="Design Art Nouveau 2">
-        <!-- Adicione mais imagens conforme necessário -->
-    </div>
-</section>
+    <section id="artistas">
+        <h2>Principais Artistas</h2>
+        <ul>
+            <li>Alphonse Mucha</li>
+            <li>Gustav Klimt</li>
+            <li>Hector Guimard</li>
+            <li>Antoni Gaudí</li>
+            <li>Louis Comfort Tiffany</li>
+        </ul>
+        <hr class="decorative-line">
+    </section>
 
-<footer>
-    <p>© 2024 Site Art Nouveau. Todos os direitos reservados.</p>
-</footer>
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img class="first-image" src="https://i.imgur.com/V2cwOt1.png" alt="Imagem 1">
+            <img class="small-image" src="https://photoarts.com.br/magazine/wp-content/uploads/sites/2/2021/07/CAPA-8.jpg" alt="Imagem 2">
+            <img class="small-image" src="https://partner.gira.de/abbildungen/gira-magazin-jugendstil-architektur-getty-hero-2_26353_1691408424.webp" alt="Imagem 3">
+            <img class="small-image" src="https://img.freepik.com/fotos-premium/arquitetura-art-nouveau-uma-escada-cativante-com-atmosfera-serena_839740-535.jpg" alt="Imagem 4">
+        </div>
+
+        <img class="full-width-image" src="https://i.imgur.com/rJllmcq.png" alt="Imagem 1">
+    </section>
+
+    <footer>
+        <p>© 2024 Grupo da Pururuca Art Nouveau. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
+
+</html>
+
 </html>
 
